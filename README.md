@@ -1,4 +1,4 @@
-# ALSolutionCenter
+# AL SolutionCenter
 Alternative GUI to HP Solution Center which does not use Macromedia Flash
 
 After the HP Solution center stopped to work due to lack of Macromedia Flash which is no more runnable on a Windows 10 computer I made an essentials GUI / User Interface 
