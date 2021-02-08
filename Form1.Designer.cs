@@ -29,6 +29,7 @@ namespace ALSolutionCenter
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1ToolBox = new System.Windows.Forms.Button();
             this.button2PDF = new System.Windows.Forms.Button();
             this.button3JPG = new System.Windows.Forms.Button();
@@ -122,9 +123,9 @@ namespace ALSolutionCenter
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(38, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(317, 13);
+            this.label2.Size = new System.Drawing.Size(346, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Foss without fuss, just working. If it doesn\'t feel fre to let me know.";
+            this.label2.Text = "Foss without fuss, just working. If it doesn\'t work, feel fre to let me know.";
             // 
             // label3
             // 
@@ -186,6 +187,7 @@ namespace ALSolutionCenter
             this.Controls.Add(this.button3JPG);
             this.Controls.Add(this.button2PDF);
             this.Controls.Add(this.button1ToolBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Alex Lion Solution Center for HP DeskJet F2280";
             this.Load += new System.EventHandler(this.Form1_Load);
