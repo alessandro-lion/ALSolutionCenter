@@ -29,6 +29,7 @@ namespace ALSolutionCenter
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.button1ToolBox = new System.Windows.Forms.Button();
             this.button2PDF = new System.Windows.Forms.Button();
             this.button3JPG = new System.Windows.Forms.Button();
@@ -186,6 +187,7 @@ namespace ALSolutionCenter
             this.Controls.Add(this.button3JPG);
             this.Controls.Add(this.button2PDF);
             this.Controls.Add(this.button1ToolBox);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Alex Lion Solution Center for HP DeskJet F2280";
             this.Load += new System.EventHandler(this.Form1_Load);
