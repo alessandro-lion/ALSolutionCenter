@@ -108,5 +108,14 @@ namespace ALSolutionCenter
         {
             Process.Start(sActionScan, "-aSCAN -fSCAN_PICTURE -n\"" + sSelectedPrinterCUE + "\"");
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Specify that the link was visited.
+            this.linkLabel1.LinkVisited = true;
+
+            // Navigate to a URL.
+            System.Diagnostics.Process.Start(this.linkLabel1.Text);
+        }
     }
 }
